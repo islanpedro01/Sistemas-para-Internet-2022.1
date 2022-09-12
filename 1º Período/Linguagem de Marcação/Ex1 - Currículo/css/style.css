@@ -31,7 +31,7 @@ h2 a, h2 a:visited{
 h1:hover a, h2:hover a{
     color:darkblue
 }
-#rodape{
+#footer{
     text-align: center;
     font-weight: bold;
     font-style: italic;
