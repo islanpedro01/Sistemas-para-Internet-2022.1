@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @Import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
   color: darkslategrey;
@@ -14,6 +15,21 @@ body {
 #copyright {
   font-weight: bold;
   font-style: italic;
+}
+
+#social {
+text-align: center;
+font-size: 2rem;
+}
+.fa-square-facebook{
+  color: navy;
+}
+
+.fa-square-twitter{
+  color: dodgerblue;
+}
+.fa-square-linkedin{
+  color: navy;
 }
 
 h1 {
@@ -65,4 +81,19 @@ h1:hover a, h2:hover a {
   background-color: darkblue;
   text-decoration-line: none;
   
+}
+@media print{
+  body, h1{
+    color: black;
+    font-family: Times, serif; 
+    }
+  h1#elon{
+    text-align: left;
+  }
+  h2{
+    background-color: unset;
+  }
+  a.topo, h2 a{
+    color: white;
+  }
 }
