@@ -18,19 +18,21 @@ body {
 }
 
 #social {
-text-align: center;
-font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
+
 }
 .fa-square-facebook{
   color: navy;
-}
-
+  }
+  
 .fa-square-twitter{
   color: dodgerblue;
-}
-.fa-square-linkedin{
+  }
+  
+.fa-linkedin{
   color: navy;
-}
+  }
 
 h1 {
   font-family: 'Audiowide', cursive;
