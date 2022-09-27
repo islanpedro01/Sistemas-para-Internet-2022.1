@@ -1,4 +1,4 @@
-mat = input('Digite a matrícula do aluno (0 para finalizar): '))
+mat = input('Digite a matrícula do aluno (0 para finalizar): ')
 
 while mat != 0:
     nome = input('Digite o nome do aluno: ')
