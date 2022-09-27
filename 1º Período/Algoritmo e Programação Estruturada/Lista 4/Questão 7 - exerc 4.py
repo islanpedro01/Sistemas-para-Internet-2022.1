@@ -18,7 +18,7 @@ else:
     media = soma/total
     perc = (num/total)*100
 
-    print (f'\nA média de idade do público é: {media:.1f}')
-    print (f'A porcentagem de pessoas na faixa entre 18 e 21 anos é: {perc}%')
-    print (f'A idade do visitante mais jovem é: {menor}')
+    print (f'\nA média de idade do público é: {media:.1f} anos.')
+    print (f'A porcentagem de pessoas na faixa entre 18 e 21 anos é: {perc:.1f}%')
+    print (f'A idade do visitante mais jovem é: {menor} anos.')
     print ('\nPrograma finalizado!')
