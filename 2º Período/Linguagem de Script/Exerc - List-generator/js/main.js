@@ -10,7 +10,6 @@ form.onsubmit = (event) => {
 
    for (let i = 0; i < num; i++) {
         result += `<li>Item ${i+1}</li>`
-        console.log(result)
     }
     numplace.innerHTML = result;
 };
