@@ -14,7 +14,6 @@ async function getCEP(cep) {
       const cepData = await response.json();
       if (cepData.erro){
         erro.classList.remove('hidden')
-        return;
       }
       rua.value = cepData.logradouro
       bairro.value = cepData.bairro
